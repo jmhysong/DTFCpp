@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\DTFCpp.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{91B1D59C-1F76-444F-A72C-0CF2F830B032}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\DTFCpp.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\DTFCppEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{1E019B89-F6D3-4A29-B392-A492B471D659}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\DTFCpp">
+			<UniqueIdentifier>{28768409-5FF4-4019-8BD2-AE519521FEE0}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\DTFCpp\DTFCpp.Build.cs">
+			<Filter>Source\DTFCpp</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\DTFCpp\DTFCpp.cpp">
+			<Filter>Source\DTFCpp</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\DTFCpp\DTFCpp.h">
+			<Filter>Source\DTFCpp</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\DTFCpp\DTFCppGameMode.cpp">
+			<Filter>Source\DTFCpp</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\DTFCpp\DTFCppGameMode.h">
+			<Filter>Source\DTFCpp</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>

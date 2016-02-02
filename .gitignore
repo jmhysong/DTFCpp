@@ -1,0 +1,12 @@
+.vs/*
+Binaries/*
+Intermediate/Build/*
+Intermediate/ReImportCache/*
+Intermediate/Staging/*
+Intermediate/CachedAssetRegistry.bin
+Saved/*
+Build/*
+Content/CardImages/*
+Content/CardMaterials/*
+Content/CardMeshes/*
+*.sdf
