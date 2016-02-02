@@ -5,14 +5,13 @@
 #include "GameFramework/GameMode.h"
 #include "DTFCppGameMode.generated.h"
 
-/**
- * 
- */
 UCLASS()
 class DTFCPP_API ADTFCppGameMode : public AGameMode
 {
 	GENERATED_BODY()
-	
+
+public:
+		ADTFCppGameMode(const FObjectInitializer& ObjectInitializer);
 	
 	
 	
