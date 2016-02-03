@@ -2,7 +2,6 @@
 
 #include "DTFCpp.h"
 #include "DTFCppGameMode.h"
-#include "DTFCppChatSystem.h"
 #include "DTFCppPlayerController.h"
 #include "DTFCppHUD.h"
 

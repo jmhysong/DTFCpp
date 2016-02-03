@@ -4,7 +4,6 @@
 
 #include "GameFramework/PlayerController.h"
 #include "DTFCppUserWidget.h"
-#include "DTFCppChatSystem.h"
 #include "DTFCppPlayerController.generated.h"
 
 /**

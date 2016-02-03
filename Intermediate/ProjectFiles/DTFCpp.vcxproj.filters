@@ -1,79 +1,64 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <ItemGroup>
-    <None Include="..\..\DTFCpp.uproject" />
-    <Filter Include="Source">
-      <UniqueIdentifier>{5DBA1933-8803-4456-A09F-C989A5FCA120}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Source\DTFCpp.Target.cs">
-      <Filter>Source</Filter>
-    </None>
-    <None Include="..\..\Source\DTFCppEditor.Target.cs">
-      <Filter>Source</Filter>
-    </None>
-    <Filter Include="Config">
-      <UniqueIdentifier>{6B77C12E-E702-4302-AABE-29BC76A0D647}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Config\DefaultEditor.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultEngine.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultGame.ini">
-      <Filter>Config</Filter>
-    </None>
-    <Filter Include="Source\DTFCpp">
-      <UniqueIdentifier>{12358120-4BAD-4925-95A3-82C67167A877}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Source\DTFCpp\DTFCpp.Build.cs">
-      <Filter>Source\DTFCpp</Filter>
-    </None>
-    <ClCompile Include="..\..\Source\DTFCpp\DTFCpp.cpp">
-      <Filter>Source\DTFCpp</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\DTFCpp\DTFCpp.h">
-      <Filter>Source\DTFCpp</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\DTFCpp\DTFCppChatSystem.cpp">
-      <Filter>Source\DTFCpp</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\DTFCpp\DTFCppChatSystem.h">
-      <Filter>Source\DTFCpp</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\DTFCpp\DTFCppGameInstance.cpp">
-      <Filter>Source\DTFCpp</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\DTFCpp\DTFCppGameInstance.h">
-      <Filter>Source\DTFCpp</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\DTFCpp\DTFCppGameMode.cpp">
-      <Filter>Source\DTFCpp</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\DTFCpp\DTFCppGameMode.h">
-      <Filter>Source\DTFCpp</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\DTFCpp\DTFCppHUD.cpp">
-      <Filter>Source\DTFCpp</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\DTFCpp\DTFCppHUD.h">
-      <Filter>Source\DTFCpp</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\DTFCpp\DTFCppUserWidget.cpp">
-      <Filter>Source\DTFCpp</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\DTFCpp\DTFCppUserWidget.h">
-      <Filter>Source\DTFCpp</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\DTFCpp\DTFCppPlayerController.h">
-      <Filter>Source\DTFCpp</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\DTFCpp\DTFCppPlayerController.cpp">
-      <Filter>Source\DTFCpp</Filter>
-    </ClCompile>
-  </ItemGroup>
+	<ItemGroup>
+		<None Include="..\..\DTFCpp.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{80F07526-F109-4CFC-9CB7-ED8A27406F2E}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\DTFCpp.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\DTFCppEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{408E44F9-86B1-4044-AA9F-0D1CBA2B4774}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\DTFCpp">
+			<UniqueIdentifier>{2EC4F00E-333A-4E3B-BA40-C6147B658940}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\DTFCpp\DTFCpp.Build.cs">
+			<Filter>Source\DTFCpp</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\DTFCpp\DTFCpp.cpp">
+			<Filter>Source\DTFCpp</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\DTFCpp\DTFCpp.h">
+			<Filter>Source\DTFCpp</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\DTFCpp\DTFCppGameMode.cpp">
+			<Filter>Source\DTFCpp</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\DTFCpp\DTFCppGameMode.h">
+			<Filter>Source\DTFCpp</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\DTFCpp\DTFCppHUD.cpp">
+			<Filter>Source\DTFCpp</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\DTFCpp\DTFCppHUD.h">
+			<Filter>Source\DTFCpp</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\DTFCpp\DTFCppPlayerController.cpp">
+			<Filter>Source\DTFCpp</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\DTFCpp\DTFCppPlayerController.h">
+			<Filter>Source\DTFCpp</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\DTFCpp\DTFCppUserWidget.cpp">
+			<Filter>Source\DTFCpp</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\DTFCpp\DTFCppUserWidget.h">
+			<Filter>Source\DTFCpp</Filter>
+		</ClInclude >
+	</ItemGroup>
 </Project>
