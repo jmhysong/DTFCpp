@@ -11,7 +11,8 @@
 
 ADTFCppGameMode::ADTFCppGameMode(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer)
 {
-	DefaultPawnClass = ADTFCppChatSystem::StaticClass();
+	static ConstructorHelpers::FClassFinder<ACharacter>DefChar(TEXT("Blueprint'/Game/Blueprints/DTFCppCharacter.DTFCppCharacter_C'"));
+	DefaultPawnClass = DefChar.Class;
 	HUDClass = ADTFCppHUD::StaticClass();
 	PlayerControllerClass = ADTFCppPlayerController::StaticClass();
 }

@@ -13,6 +13,9 @@ class DTFCPP_API ADTFCppGameMode : public AGameMode
 public:
 		ADTFCppGameMode(const FObjectInitializer& ObjectInitializer);
 	
-	
+		UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Character")
+			TSubclassOf<class APawn> DTFCppChar;
+		UPROPERTY()
+			APawn* DTFCppCharChat;
 	
 };

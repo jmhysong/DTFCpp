@@ -15,21 +15,29 @@ ADTFCppPlayerController::ADTFCppPlayerController(const FObjectInitializer& Objec
 	{
 		DTFCppGameHUD = UWidBP.Class;
 	}
-	static ConstructorHelpers::FClassFinder<ADTFCppChatSystem>CSys(TEXT("Blueprint'/Game/BPChatSystem/Blueprints/Chat_System.Chat_System_C'"));
-	ChatSystem = CSys.Class;
+	//static ConstructorHelpers::FClassFinder<ADTFCppChatSystem>CSys(TEXT("Blueprint'/Game/BPChatSystem/Blueprints/Chat_System.Chat_System_C'"));
+	//ChatSystem = CSys.Class;
+	bShowMouseCursor = true;
 }
 
 void ADTFCppPlayerController::BeginPlay()
 {
-	
-	
+	/*
+	FPlatformProcess::Sleep(1);
+
+	if (1)
+	{
+		FOutputDeviceNull ar;
+		ChatSystem->CallFunctionByNameWithArguments(TEXT("Spawn It"), ar, NULL, false);
+	}
+	*/
 	if (!DTFCppGameHUD)
 	{
 	return;
 	}
 	if (!MyGameHUD)
 	{
-	MyGameHUD = CreateWidget<UDTFCppUserWidget>(this, DTFCppGameHUD);
+	MyGameHUD = CreateWidget<UDTFCppUserWidget>(GetWorld()->GetFirstPlayerController(), DTFCppGameHUD);
 	}
 	if (!MyGameHUD)
 	{
@@ -37,9 +45,6 @@ void ADTFCppPlayerController::BeginPlay()
 	}
 	
 	MyGameHUD->AddToViewport();
+	
 
-	if (GEngine)
-	{
-		GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Yellow, ChatSystem->GetName());
-	}
 }

@@ -13,11 +13,11 @@ class DTFCPP_API UDTFCppGameInstance : public UGameInstance
 	GENERATED_BODY()
 public:
 		UDTFCppGameInstance(const FObjectInitializer& ObjectInitializer);
-		/*
-		UPROPERTY()
+		
+		UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Players In Chat")
 			TArray<ADTFCppChatSystem*> Players_In_Chat;
-		UPROPERTY()
+		UPROPERTY(EditAnywhere, BlueprintReadWrite, Replicated, Category = "Chat Groups")
 			TArray<FString> Chat_Groups;
-		*/
-	
+		
+		void GetLifetimeReplicatedProps(TArray< class FLifetimeProperty > & OutLifetimeProps);
 };

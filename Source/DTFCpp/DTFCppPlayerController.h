@@ -21,10 +21,6 @@ public:
 			TSubclassOf<class UDTFCppUserWidget> DTFCppGameHUD;
 		UPROPERTY()
 			UDTFCppUserWidget* MyGameHUD;
-		UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Game HUD")
-			TSubclassOf<class ADTFCppChatSystem> ChatSystem;
-		UPROPERTY()
-			ADTFCppChatSystem* MyChatSystem;
 		void BeginPlay();
 
 };
