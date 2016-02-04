@@ -12,6 +12,8 @@ class DTFCPP_API UDTFCppUserWidget : public UUserWidget
 
 public:
 		UDTFCppUserWidget(const FObjectInitializer& ObjectInitializer);
-	
+		UFUNCTION(BluePrintCallable, Category = "Get Promotion Points")
+			int32 GetPromo();
+		
 	
 };

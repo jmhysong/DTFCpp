@@ -20,6 +20,10 @@ public:
 			TSubclassOf<class UDTFCppUserWidget> DTFCppGameHUD;
 		UPROPERTY()
 			UDTFCppUserWidget* MyGameHUD;
-		void BeginPlay();
-
+		void BeginPlay() override;
+		//UPROPERTY()
+		//int32 promotion;
+		//void PlayerTick(float DeltaTime) override;
+		
+		
 };
